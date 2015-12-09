@@ -2,7 +2,7 @@ var path = require("file_path");
 
 
 var root = path.dir(path.dir(__dirname)),
-    webRoot = path.dirname(require.resolve("vocard-virt/package.json"));
+    webRoot = path.dirname(require.resolve("app_name-virt/package.json"));
 
 
 module.exports = {
